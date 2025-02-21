@@ -21,6 +21,14 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="284"/>
                                 <color key="tintColor" name="AccentColor"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="871-KM-SPz">
+                                <rect key="frame" x="16" y="348" width="361" height="337"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFh-vP-bnA">
+                                <rect key="frame" x="0.0" y="690" width="393" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -28,16 +36,26 @@
                             <constraint firstItem="qIv-2U-8to" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="De7-2R-Swk"/>
                             <constraint firstItem="qIv-2U-8to" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="Nkd-oH-zRg"/>
                             <constraint firstItem="qIv-2U-8to" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rym-f3-hwg"/>
+                            <constraint firstItem="eFh-vP-bnA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="VSv-0R-qKe"/>
+                            <constraint firstItem="eFh-vP-bnA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="690" id="eqC-bk-yl7"/>
+                            <constraint firstItem="871-KM-SPz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="i8D-Lg-Qgo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eFh-vP-bnA" secondAttribute="trailing" id="jRJ-Br-7Xg"/>
+                            <constraint firstItem="eFh-vP-bnA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="otY-Sy-BN9"/>
+                            <constraint firstItem="871-KM-SPz" firstAttribute="top" secondItem="qIv-2U-8to" secondAttribute="bottom" constant="5" id="qsW-X9-z7D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qIv-2U-8to" secondAttribute="trailing" id="uly-un-yEU"/>
+                            <constraint firstItem="eFh-vP-bnA" firstAttribute="top" secondItem="871-KM-SPz" secondAttribute="bottom" constant="5" id="vA3-j8-iZt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="871-KM-SPz" secondAttribute="trailing" constant="16" id="ybS-yn-nbr"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="videoView" destination="qIv-2U-8to" id="o07-fk-gKD"/>
+                        <outlet property="videoView2" destination="871-KM-SPz" id="LUj-DX-aRd"/>
+                        <outlet property="videoView3" destination="eFh-vP-bnA" id="IQN-bf-Xn0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-24" y="4"/>
+            <point key="canvasLocation" x="-25.190839694656489" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
